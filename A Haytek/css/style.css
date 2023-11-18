@@ -1,0 +1,545 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo:wght@700&family=Patua+One&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cardo', serif;
+}
+body{
+    background: #e9e7e7 !important;
+    
+}
+.nav-item{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    
+}
+.nav-list-item ul{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    /* margin: 10px 12px; */
+    left:40px;
+    top: 50px;
+    
+}
+.nav-list-item ul li{
+    list-style: none;
+    margin: 10px 32px;
+    font-size: 20px;
+}
+
+.nav-list-item ul li a{
+    color:#000;
+    text-decoration: none;
+    cursor: pointer;
+}
+.nav-btn{
+    position: relative;
+    right: 40px;
+    top: 50px;
+}
+.nav-btn a{
+    margin: 10px 12px;
+    color: #000;
+    text-decoration: none;
+    font-weight: 700;
+    padding: 10px 30px;
+    border: 2px solid #000;
+    border-radius: 8px;
+}
+.header-2{
+    position: relative;
+    top: 50px;
+    /* background-image: url('../assets/images/Scribble%20Lightest.png'); */
+
+    
+}
+.head_1 h1{
+    font-size: 90px;
+    font-weight: 900;
+    /* font-family: 'Times New Roman', Times, serif; */
+}
+.head_1{
+    padding: 20px 20px;
+    /* background-image: url('../assets/images/Scribble\ Lightest.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: -100px; */
+    /* background-position-x:right; */
+}
+.scribl-im img{
+    display: block;
+    position: absolute;
+    top:235px;
+}
+.scribl-im-1 img{
+    display: block;
+    position: absolute;
+    top: 457px;
+    width: 78px;
+    left: 1265px;
+}
+.head_1_btn button{
+    position: relative;
+    top: 40px;
+    background: #000;
+    padding: 10px 42px;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    z-index: 100;
+}
+.head_scrible_img{
+    position: relative;
+    top: -350px;
+    left: -100px;
+    z-index: -12;
+    overflow: hidden;
+}
+.col-md-6 {
+    position: relative;
+    padding: 20px 20px;
+}
+.head_2_img img{
+    height: 466px;
+    width: 600px;
+}
+
+
+
+
+.memory{
+    position: relative;
+    color: #fff;
+    background: #000;
+    height: 400px;
+    top:150px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    /* font-family: 'Times New Roman', Times, serif; */
+}
+.memory h1{
+    padding: 20px 50px ;
+    font-size: 40px;
+
+}
+.memory button{
+    position: relative;
+    top: 15px;
+    color: #fff;
+    padding: 10px 45px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    background: none;
+    font-weight: 600;
+}
+.scrible_2{
+    position: relative;
+    top: 90px;
+    left: 33px;
+}
+.scrible_1{
+    position: relative;
+    bottom: 70px;
+    right: 50px;
+}
+
+.card_blog{
+    position: relative;
+    top: 350px;
+}
+
+.blog-card{
+    position: relative;
+    justify-content: center;
+    left:130px;
+    
+}
+
+.c-blogg{
+    border: none !important;
+    background: none !important;
+    justify-content: space-between;
+}
+
+.scrible_4 {
+    position: relative;
+    right:-220px;
+    
+}
+
+
+.card-body span{
+    content:'';
+    display:block;
+    width: 40px;
+    height: 2px;
+    background: #000;
+}
+
+
+
+.flying{
+    display: flex ;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    top:200px;
+    text-align: center;
+    /* font-family:'Times New Roman', Times, serif; */
+}
+.flying::after{
+    content: '';
+    position: relative;
+    height: 700px;
+    width: 200px;
+    background: url('../assets/images/Scribble\ Lightest\ \(1\).png');
+    top: -400px;
+    left: 550px;
+    z-index: -10;
+    overflow: hidden;
+}
+.fly-content h1{
+    font-size: 70px;
+    font-weight: 800;
+}
+.scrible-6{
+    position: relative;
+    top: 20px;
+    right:300px;
+}
+.scrible-5{
+    display: block;
+    position: relative;
+    z-index: 10;
+    height: 100px;
+    width: 100px;
+    left: 200px;
+}
+.scrible-5 img{
+    height: 800px;
+    width: 400px;
+}
+.img-gallery{
+    position: relative;
+    bottom: 100px;
+
+
+}
+
+.arrow{
+    /* display: flex; */
+    position: absolute;
+    top: 335px;
+    left: 200px;
+    /* overflow: hidden; */
+
+}
+ .line-1{
+    content: '';
+    display: block;
+    position: relative;
+    background: #000;
+    width: 15px;
+    left: 56px;
+    top: 2px;
+    transform: rotate(45deg);
+    height: 2px;
+}
+ .line-2{
+    content: '';
+    display: block;
+    position: relative;
+    background: #000;
+    top: 6px;
+    width: 70px;
+    height: 2px;
+}
+
+.line-3{
+    content: '';
+    display: block;
+    position: relative;
+    background: #000;
+    width: 15px;
+    left: 57px;
+    top: 9px;
+    transform: rotate(135deg);
+    height: 2px;
+}
+
+
+
+.place-se{
+    position: relative;
+    background: #000;
+    height: 800px;
+    color: #fff;
+}
+.place-cont {
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+.place-heading{
+    position: relative;
+    /* top: 50px; */
+    margin-top: 100px;
+    bottom: 100px;
+}
+.content-space-head{
+    position: relative;
+    margin-bottom: 50px;
+}
+.place-img img{
+    position: relative;
+    left: 130px;
+    top: 100px;
+}
+.place-scrible{
+    position: relative;
+    top: 80px;
+    right: 10px;
+    height: 100px;
+}
+.faq-sec{
+    position: relative;
+    top: 100px;
+}
+.faq-sec-heading h1{
+    font-size: 75px;
+    font-weight: 700;
+}
+.faq-sec-heading {
+    display: flex;
+    flex-direction: row;
+}
+
+.customer{
+    position: relative;
+    top: 200px;
+}
+.customer-heading{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+.customer-heading h1{
+    position: relative;
+    text-align: center;
+    font-size: 70px;
+    font-weight: 900;
+    left: 100px;
+}
+.card{
+    position: relative;
+    height: 600px;
+    width: 300;
+    border: 2px solid #000;
+}
+.prof{
+    background: none !important;
+    border: 2px solid #000 !important;
+}
+.profile-content{
+    position: relative;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+
+}
+.profile-img{
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.arrow-pro{
+    position: absolute;
+    border: 2px solid #000;
+    background: #e9e7e7 ;
+    padding: 20px 20px;
+    margin: 10px 10px;
+    width: 60px;
+    height: 50px;
+    border-radius: 8px;
+    left: 313px;
+    top: 150px;
+}
+.arrow-pro-1{
+    position: absolute;
+    border: 2px solid #000;
+    background: #e9e7e7 ;
+    padding: 20px 20px;
+    margin: 10px 10px;
+    width: 60px;
+    height: 50px;
+    border-radius: 8px;
+    left: -40px;
+    /* right: 23px; */
+    top: 150px;
+}
+.line-4{
+    content: '';
+    display: block;
+    position: relative;
+    background: #000;
+    width: 15px;
+    left: 14px;
+    top: -4px;
+    transform: rotate(45deg);
+    height: 2px;
+}
+ .line-5{
+    content: '';
+    display: block;
+    position: relative;
+    background: #000;
+    top: 0px;
+    left: -7px;
+    width: 35px;
+    height: 2px;
+}
+
+.line-6{
+    content: '';
+    display: block;
+    position: relative;
+    background: #000;
+    width: 15px;
+    left: 14px;
+    top: 3px;
+    transform: rotate(135deg);
+    height: 2px;
+}
+
+.line-7{
+    content: '';
+    display: block;
+    position: relative;
+    background: #000;
+    width: 15px;
+    left: -8px;
+    top: -4px;
+    transform: rotate(-45deg);
+    height: 2px;
+}
+ .line-8{
+    content: '';
+    display: block;
+    position: relative;
+    background: #000;
+    top: 0px;
+    left: -7px;
+    width: 35px;
+    height: 2px;
+}
+
+.line-9{
+    content: '';
+    display: block;
+    position: relative;
+    background: #000;
+    width: 15px;
+    left: -9px;
+    top: 3px;
+    transform: rotate(-135deg);
+    height: 2px;
+}
+.scribl-card-2{
+    position: absolute;
+    
+    left: 950px;
+}
+
+.contact-sec{
+    position: relative;
+    top: 350px;
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form h1{
+    font-size: 90px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
+.form input{
+    position: relative; 
+    background: none;
+    margin: 10px 10px;
+    width: 83%;
+    color: #000;
+    border: 2px solid #000;
+    border-radius: 8px;
+    padding: 15px 15px;
+}
+.form input::placeholder{
+    color: #000;
+    font-weight: 600;
+}
+.form textarea{
+    position: relative; 
+    background: none;
+    margin: 10px 10px;
+    width: 83%;
+    color: #000;
+    border: 2px solid #000;
+    border-radius: 8px;
+    padding: 15px 15px;
+}
+.form textarea::placeholder{
+    color: #000;
+    font-weight: 600;
+}
+.form-bt button{
+    position: relative;
+    width: 83%;
+    background: #000;
+    color: #fff;
+    padding: 10px 10px;
+    margin: 10px 10px;
+}
+.footer-sc{
+    position: relative;
+    top: 500px;
+    height: 500px;
+    background: #c4c4c4;
+    padding: 20px 20px;
+}
+.footer-ct{
+    position: relative;
+    top: 70px;
+    left: 30px;
+}
+.col-md-3 ul li{
+    list-style: none;
+    line-height: 40px;
+}
+.col-md-3 ul li a{
+    color: #000;
+    text-decoration: none;
+}
+.scrble-ft{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    top: 70px;
+}
+.scrble-ft p{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    top: 100px;
+    left: 150px;
+}
